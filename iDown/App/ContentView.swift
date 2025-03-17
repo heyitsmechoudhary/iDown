@@ -28,6 +28,8 @@ struct ContentView: View {
                             .frame(height: 320)
                             .padding(.vertical,20)
                         
+                        CategoryGridView()
+                        
                         FooterView()
                             .padding(.horizontal)
                     }//:VSTACK
