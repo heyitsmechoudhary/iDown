@@ -9,9 +9,9 @@ import SwiftUI
 
 // DATA
 let players : [Player] = Bundle.main.decode("player.json")
-//let brands : [Player] = Bundle.main.decode("brand.json")
+let brands : [Brand] = Bundle.main.decode("brand.json")
 let categories : [Category] = Bundle.main.decode("category.json")
-//let products : [Player] = Bundle.main.decode("product.json")
+let products : [Product] = Bundle.main.decode("product.json")
 
 // COLOR
 let colorBackground: Color = Color("ColorBackground")
